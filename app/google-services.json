@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "509579527493",
+    "firebase_url": "https://fortiva-4dbed-default-rtdb.firebaseio.com",
+    "project_id": "fortiva-4dbed",
+    "storage_bucket": "fortiva-4dbed.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:509579527493:android:48e500d829cb4ad7a76a2c",
+        "android_client_info": {
+          "package_name": "com.example.fortiva"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "509579527493-crgjmlucjbb7aldut39u1s79p695ojlv.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.fortiva",
+            "certificate_hash": "5f1a45f26a9ba364181503fb50751c0c03cd8e6c"
+          }
+        },
+        {
+          "client_id": "509579527493-53lj89jsoav1osjnopkvdqg8s2g7hu6o.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCzuzdVnOIHQ86awXN_EM0KgW3lLiDI-AY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "509579527493-53lj89jsoav1osjnopkvdqg8s2g7hu6o.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

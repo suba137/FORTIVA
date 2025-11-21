@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">Fortiva</string>
+    <string name="prefs_file">com.example.fortiva.PREFERENCE_FILE_KEY</string>
+    <string name="default_web_client_id">com.example.fortiva</string>
+    <string name="biometric_title">Verificación biométrica</string>
+    <string name="biometric_subtitle">Usa tu huella o rostro para continuar</string>
+    <string name="fingerprint_icon">Ícono de huella digital</string>
+    <string name="btn_retry">Reintentar</string>
+    <string name="nombre_inmueble">Nombre</string>
+    <string name="porcentaje_compra">Porcentaje: 0%</string>
+    <string name="valor_compra">Valor: $0</string>
+    <string name="titulo_fortiva">FORTIVA</string>
+    <string name="crear_cuenta">Crear cuenta</string>
+
+
+
+
+</resources>

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- 🎨 Paleta FORTIVA -->
+    <color name="colorPrimary">#0B2C48</color>          <!-- Fondo principal -->
+    <color name="colorOnPrimary">#FFFFFF</color>         <!-- Texto sobre colorPrimary -->
+    <color name="colorSecondary">#40564A</color>         <!-- Botones secundarios -->
+    <color name="colorOnSecondary">#FFFFFF</color>       <!-- Texto sobre colorSecondary -->
+    <color name="colorBackground">#F2F5F7</color>        <!-- Fondo claro de tarjetas -->
+    <color name="colorOnBackground">#000000</color>      <!-- Texto sobre fondo -->
+    <color name="colorSurface">#FFFFFF</color>           <!-- Tarjetas / inputs -->
+    <color name="colorOnSurface">#000000</color>         <!-- Texto sobre tarjetas -->
+    <color name="colorHint">#A7B0B5</color>              <!-- Placeholder / hint -->
+
+    <!-- 🔹 Colores adicionales necesarios -->
+    <color name="colorPrimaryDark">#061C2E</color>       <!-- Versión más oscura del primary -->
+    <color name="colorError">#B00020</color>             <!-- Rojo para errores -->
+    <color name="colorOnError">#FFFFFF</color>           <!-- Texto sobre fondo de error -->
+
+    <!-- ✅ Colores utilitarios -->
+    <color name="white">#FFFFFF</color>
+    <color name="gray_light">#A7B0B5</color>
+</resources>

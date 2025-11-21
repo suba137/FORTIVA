@@ -1,0 +1,14 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/menu_catalogo"
+        android:title="Catálogo"
+        android:icon="@drawable/ic_home"/>
+    <item
+        android:id="@+id/menu_carrito"
+        android:title="Carrito"
+        android:icon="@drawable/ic_carrito"/>
+    <item
+        android:id="@+id/menu_perfil"
+        android:title="Perfil"
+        android:icon="@drawable/ic_perfil"/>
+</menu>

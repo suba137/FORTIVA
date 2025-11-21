@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <!-- 🔒 Permisos biométricos -->
+    <uses-permission android:name="android.permission.USE_BIOMETRIC" />
+    <uses-permission android:name="android.permission.USE_FINGERPRINT" tools:ignore="UnusedAttribute" />
+
+    <application
+        android:name=".FortivaApp"
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.Fortiva"
+        tools:targetApi="33">
+
+        <!-- 🏁 Pantalla principal (Login) -->
+        <activity
+            android:name=".AuthActivity"
+            android:exported="true"
+            android:label="@string/app_name"
+            android:theme="@style/Theme.Fortiva">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <!-- 🔑 Recuperar contraseña -->
+        <activity
+            android:name=".RecordarActivity"
+            android:exported="false"
+            android:label="Recuperar Contraseña"
+            android:theme="@style/Theme.Fortiva" />
+
+        <!-- 📝 Registro -->
+        <activity
+            android:name=".RegistroActivity"
+            android:exported="false"
+            android:label="Registro"
+            android:theme="@style/Theme.Fortiva" />
+
+        <!-- 🏢 Catálogo -->
+        <activity
+            android:name=".CatalogoActivity"
+            android:exported="false"
+            android:label="Catálogo"
+            android:theme="@style/Theme.Fortiva" />
+
+        <!-- 🛒 Carrito -->
+        <activity
+            android:name=".CarritoActivity"
+            android:exported="false"
+            android:label="Carrito"
+            android:theme="@style/Theme.Fortiva" />
+
+        <!-- 💰 Compra parcial -->
+        <activity
+            android:name=".CompraParcialActivity"
+            android:exported="false"
+            android:label="Compra Parcial"
+            android:theme="@style/Theme.Fortiva" />
+
+        <!-- ⚙️ Configuración -->
+        <activity
+            android:name=".ConfiguracionActivity"
+            android:exported="false"
+            android:label="Configuración"
+            android:theme="@style/Theme.Fortiva" />
+    </application>
+</manifest>
+
